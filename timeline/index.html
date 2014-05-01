@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stroke Party: Timeline</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Miller Stroke Timeline">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <script type="text/javascript" language="Javascript" src="lib/TimelineJS/compiled/lib/jquery-min.js"></script>
+
+    <!-- Add fancyBox -->
+<link rel="stylesheet" href="lib/fancyBox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+<script type="text/javascript" src="lib/fancyBox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+
+
+    <link href="/assets/themes/hooligan/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/hooligan/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/themes/hooligan/css-social-buttons/css/zocial.stripped.css">
+    <link href="/assets/themes/hooligan/css/pygments.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/hooligan/css/darkstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/hooligan/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+
+    <!-- Style-->
+    <style>
+      html, body {
+       height:100%;
+       padding: 0px;
+       margin: 0px;
+      }
+    </style>
+
+    <style type="text/css">
+    /* jQuery lightBox plugin - Gallery style */
+    #gallery {
+        background-color: #444;
+        padding: 10px;
+        width: 520px;
+    }
+    #gallery ul { list-style: none; }
+    #gallery ul li { display: inline; }
+    #gallery ul img {
+        border: 5px solid #3e3e3e;
+        border-width: 5px 5px 20px;
+    }
+    #gallery ul a:hover img {
+        border: 5px solid #fff;
+        border-width: 5px 5px 20px;
+        color: #fff;
+    }
+    #gallery ul a:hover { color: #fff; }
+    #timeline-embed{
+    	text-shadow:none;
+    }
+    </style>
+
+
+  </head>
+</html>
+<body>
+<div class="navbar">
+        <div class="navbar-inner">
+          <div class="container">
+            <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="/">Stroke Party</a>
+            <div class="nav-collapse">
+              <ul class="nav">
+        <li><a href="/really/index.html">Really?!</a></li>
+        <li><a href="/yes/index.html">Yes!</a></li>
+        <li><a href="/whenwherewhy/index.html">When?/Where?/Why?</a></li>
+        <li><a href="/timeline/index.html" class="active" style="color:white;">~Memories~</a></li>
+              </ul>
+              <ul class="nav pull-right social visible-desktop">
+                <li class="divider-vertical"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> <!-- navbar -->
+  <!-- BEGIN Timeline Embed -->
+  <div id="timeline-embed"></div>
+  <script type="text/javascript">
+    var timeline_config = {
+     width: "100%",
+     height: "100%",
+     font: 'BreeSerif-OpenSans',
+     lang:'en',
+     source: 'timeline.jsonp'
+    }
+
+   
+   jQuery(document).ready(function() {
+     
+     $("img.media-image").attr('rel', 'gallery').fancybox({
+           padding : 0,
+             margin : 5,
+             nextEffect : 'fade',
+             prevEffect : 'none',
+             autoCenter : false,
+             afterLoad  : function () {
+                 $.extend(this, {
+                     aspectRatio : false,
+                     type : 'html',
+                     width : '100%',
+                     height : '100%',
+                     content : '<div class="fancybox-image" style="background-image:url(' + this.element[0].src + '); background-size: cover; background-position:50% 50%;background-repeat:no-repeat;height:700px;width:900px" /></div>'
+                 });
+                 console.log("this:");
+                 console.log(this.element[0].src);
+             }//afterload
+             }); //.fancybox
+
+   }); //ready
+   
+
+  </script>
+  <script type="text/javascript" src="lib/TimelineJS/compiled/js/storyjs-embed.js"></script>
+  <!-- END Timeline Embed-->
+</body>

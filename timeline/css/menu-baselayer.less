@@ -1,0 +1,41 @@
+/* ----------
+BASEMAP SWITCHER
+------------ */
+
+#menu-basemap{
+	li{float:left;list-style: none;margin-top:3px;}
+	.btn-toolbar{
+		margin: 0px;
+	}
+	button {
+		border:none;
+		margin-right:8px;
+		background-color: transparent;
+	}
+	.thumbnail{
+		width:33px;
+		height:33px;
+		margin-left:5px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+	}
+	.true{
+		background-color: rgba(15, 155, 155, .3);
+	}
+}
+
+/* RESPONSIVE OVERRIDES */
+@media (min-width: 768px) and (max-width: 979px) {
+  // if we're squeezing, let's center the buttons
+  #menu-basemap{
+  	float: left;
+left: 175px;
+position: relative;}
+}
+
+@media (max-width: 767px) {
+  left:110px;
+  float:left;
+  position:relative;
+}
