@@ -116,8 +116,8 @@ storyjs_jsonp_data = {
                 // "tag":"This is Optional",
                 // "classname":"optionaluniqueclassnamecanbeaddedhere",
                 "asset": {
-                    "media":"images/IMG_1755_Fotor.JPG",
-                    "thumbnail":"images/IMG_1755_Fotor.JPG",
+                    "media":"http://upload.wikimedia.org/wikipedia/commons/5/5e/IPhone_5s.png",
+                    "thumbnail":"http://upload.wikimedia.org/wikipedia/commons/5/5e/IPhone_5s.png",
                     //"credit":"http://www.engadget.com/products/apple/iphone/4/",
                     //"caption":""
                 }
