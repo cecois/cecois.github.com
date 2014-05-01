@@ -102,8 +102,8 @@ storyjs_jsonp_data = {
                 // "tag":"This is Optional",
                 // "classname":"optionaluniqueclassnamecanbeaddedhere",
                 "asset": {
-                    "media":"http://www.1920x1080wallpaper.com/wallpapers/p/gg/heart-rate-monitor-line-16_9-ggnw05.jpg",
-                    "thumbnail":"https://c1.staticflickr.com/9/8485/8190872599_bfdc7795c4_z.jpg",
+                    "media":"http://www.1920x1080wallpaper.com/wallpapers/f/gg/heart-rate-monitor-line-1920x1080-wallpaper-ggnw05.jpg",
+                    "thumbnail":"http://www.1920x1080wallpaper.com/wallpapers/p/gg/heart-rate-monitor-line-16_9-ggnw05.jpg",
                     "credit":"http://www.1920x1080wallpaper.com/details/ggnw05/heart-rate-monitor-line/",
                     //"caption":""
                 }
