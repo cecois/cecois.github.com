@@ -116,8 +116,8 @@ storyjs_jsonp_data = {
                 // "tag":"This is Optional",
                 // "classname":"optionaluniqueclassnamecanbeaddedhere",
                 "asset": {
-                    "media":"http://upload.wikimedia.org/wikipedia/commons/5/5e/IPhone_5s.png",
-                    "thumbnail":"http://upload.wikimedia.org/wikipedia/commons/5/5e/IPhone_5s.png",
+                    "media":"http://cnet3.cbsistatic.com/hub/i/2013/08/24/af1e112f-6de6-11e3-913e-14feb5ca9861/e35c4bc4c764261b19c54a14bdb28efa/iphone-5s-shop-le-monde-edit.jpg",
+                    "thumbnail":"http://cnet3.cbsistatic.com/hub/i/2013/08/24/af1e112f-6de6-11e3-913e-14feb5ca9861/e35c4bc4c764261b19c54a14bdb28efa/iphone-5s-shop-le-monde-edit.jpg",
                     //"credit":"http://www.engadget.com/products/apple/iphone/4/",
                     //"caption":""
                 }
