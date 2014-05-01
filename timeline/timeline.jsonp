@@ -102,9 +102,9 @@ storyjs_jsonp_data = {
                 // "tag":"This is Optional",
                 // "classname":"optionaluniqueclassnamecanbeaddedhere",
                 "asset": {
-                    "media":"http://www.1920x1080wallpaper.com/wallpapers/f/gg/heart-rate-monitor-line-1920x1080-wallpaper-ggnw05.jpg",
-                    "thumbnail":"http://www.1920x1080wallpaper.com/wallpapers/p/gg/heart-rate-monitor-line-16_9-ggnw05.jpg",
-                    "credit":"http://www.1920x1080wallpaper.com/details/ggnw05/heart-rate-monitor-line/",
+                    "media":"http://justrideplymouth.com/wp-content/uploads/2012/11/heart_rate_monitor.jpg",
+                    "thumbnail":"http://justrideplymouth.com/wp-content/uploads/2012/11/heart_rate_monitor.jpg",
+                    "credit":"http://justrideplymouth.com",
                     //"caption":""
                 }
             },
