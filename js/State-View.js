@@ -70,8 +70,6 @@ this.model.set({downout:target})
 
 			$(document).attr("title", "Hubway Data Challenge 2017: " + appState.get("slug"));
 
-			$('[data-toggle="tooltip"]').tooltip()
-
 			return this
 
 		}
