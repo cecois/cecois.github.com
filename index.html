@@ -113,6 +113,25 @@ var reducer = function(key,values){return Array.sum(values);} //reducer</code></
 
 <p>The web app itself is a congenial pairing of <a href="http://leafletjs.com">Leaflet</a>, <a href="http://backbonejs.org">Backbone.js</a>, and <a href="http://timeline.knightlab.com">TimelineJS</a> draped over a <a href="http://getbootstrap.com">Bootstrap</a> bed.</p>
 
+<p>For map enthusiasts, an undocumented feature is the basemap array. Hidden from the GUI in order to reduce clutter, <em>technically</em> you can swap the basemap by pasting one of the following in the url in place of the default &quot;pencil&quot; basemap:</p>
+
+<ul>
+<li><a href="http://cecois.github.io/#home/lichtenstein/down">lichtenstein</a></li>
+<li><a href="http://cecois.github.io/#home/carto_world_antique/down">carto_world_antique</a></li>
+<li><a href="http://cecois.github.io/#home/carto_darkmatter/down">carto_darkmatter</a></li>
+<li><a href="http://cecois.github.io/#home/carto_positron/down">carto_positron</a></li>
+<li><a href="http://cecois.github.io/#home/nokia_rgb_hybrid_day/down">nokia_rgb_hybrid_day</a></li>
+<li><a href="http://cecois.github.io/#home/pencil/down">pencil</a></li>
+<li><a href="http://cecois.github.io/#home/cloudmade/down">cloudmade</a></li>
+<li><a href="http://cecois.github.io/#home/cloudmade_redalert/down">cloudmade_redalert</a></li>
+<li><a href="http://cecois.github.io/#home/opencycle_cycle/down">opencycle_cycle</a></li>
+<li><a href="http://cecois.github.io/#home/opencycle_landscape/down">opencycle_landscape</a></li>
+<li><a href="http://cecois.github.io/#home/pinterest/down">pinterest</a></li>
+<li><a href="http://cecois.github.io/#home/stamen_toner/down">stamen_toner</a></li>
+<li><a href="http://cecois.github.io/#home/stamen_watercolor/down">stamen_watercolor</a></li>
+<li><a href="http://cecois.github.io/#home/mapbox_mario/down">mapbox_mario</a></li>
+</ul>
+
 <h1 id="toc_2">Nota Bene</h1>
 
 <p>A couple of the lowest-performing bikes were associated with stations (“8D OPS 01” and “8D OPS 03”) that had clearly-incorrect lat/lng pairs. There were no metadata explaining these stations, nor does it appear there are any corresponding stations in <a href="http://gbfs.thehubway.com/gbfs/gbfs.json">the Hubway GBFS feed</a>. Likely they are not public rental stations and the data are perhaps inventory movements or other non-“use” events (even though <a href="http://gbfs.thehubway.com/gbfs/gbfs.json">https://www.thehubway.com/system-data</a> ). At any rate, they have been manually removed from this application.</p>
@@ -120,6 +139,7 @@ var reducer = function(key,values){return Array.sum(values);} //reducer</code></
 <h1 id="toc_3">Contact</h1>
 
 <p>Strictly-speaking, issues can be submitted to <a href="https://github.com/cecois/cecois.github.com/issues">this app&#39;s dist git repo</a>.</p>
+
 
 
   </ul>
