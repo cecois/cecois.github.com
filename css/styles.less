@@ -747,7 +747,7 @@ NAV STUFF
     li{
       border-radius:0;
       text-align:center;
-      padding:5px 0px;
+      padding:5px 10px;
       cursor:pointer;
       &:hover{
         background-color:@primary-glow;
@@ -838,6 +838,10 @@ PANE STUFF
       cursor:pointer;
       // color:darken(@primary,1%);
     }
+    @media screen and (max-width: 600px) { 
+      float: right;
+      font-size:.9em;
+  }
   }
 
   #paneToggler-down.down{
@@ -863,6 +867,10 @@ PANE STUFF
       cursor:pointer;
       // color:darken(@primary,1%);
     }
+        @media screen and (max-width: 600px) { 
+      float: left;
+      font-size:.9em;
+  }
   }
 
   #paneToggler-split.split{
@@ -1363,6 +1371,10 @@ MISC
 }
 
 .tl-attribution{display:none;}
+
+.tl-text-content{
+        
+}
 
 #brand{
   color:#3FAB35;

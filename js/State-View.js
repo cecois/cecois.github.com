@@ -11,7 +11,7 @@ var StateView = Backbone.View.extend({
 		return this
 	}
 	,downout: function(e) {
-		console.log("e:",e)
+		
 		if(e.type=="keydown" && e.keyCode == 17){
 			e.preventDefault();
 			var w = (appState.get("downout")=="split")?"out":"split";
