@@ -638,6 +638,7 @@ SEARCH STUFF
   }
 
   #searchFormContainer{
+  width:100%;
     #inputSearch{
       margin-top:22px;
       textarea {border: 1px solid @secondary;border-radius: 2px; font-size:1.8em; font-weight: 800;}
@@ -734,6 +735,7 @@ NAV STUFF
 }
 
 #navContainer{
+width:100%;
   margin:0;
   color:@lgod-white;
   padding:0;
@@ -783,7 +785,8 @@ PANE STUFF
   // max-height: 600px;
   // height:auto;
   height:800px;
-  overflow:auto;
+  //overflow:auto;
+  overflow:scroll;
   position:relative;
   // padding-bottom: 150px;
   // padding-top: 44px;
@@ -838,9 +841,10 @@ PANE STUFF
       cursor:pointer;
       // color:darken(@primary,1%);
     }
-    @media screen and (max-width: 600px) { 
-      float: right;
-      font-size:.9em;
+
+    @media only screen and (min-device-width : 120px) and (max-device-width : 480px) {
+    font-size: .9em;
+    float:right;
   }
   }
 
